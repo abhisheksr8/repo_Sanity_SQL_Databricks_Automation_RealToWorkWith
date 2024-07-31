@@ -106,7 +106,7 @@
         "noSendAnonymousUsageStats" : true,
         "profile" : "run_profile",
         "sqlFabricId" : "57",
-        "gitEntityValue" : null,
+        "gitEntityValue" : "test_Automation_Branch",
         "execDeps" : true,
         "gitEntityValueCommit" : null,
         "gitEntityValueBranch" : null,
