@@ -1,7 +1,7 @@
 {
   "metainfo" : {
     "type" : "Databricks",
-    "fabricId" : "7",
+    "fabricId" : "57",
     "jobId" : "jobs/SQL_DB_Parent_DatabricksJob",
     "name" : "SQL_DB_Parent_DatabricksJob",
     "schedule" : "0 0 0 1 1 ? *",
@@ -29,34 +29,28 @@
       }
     },
     "availableFabrics" : [ {
-      "id" : "3027",
+      "id" : "2511",
+      "name" : "sql_databricks_with_a_large_name_so_please_dont_delete_or_rename_me_or_reduce_length_of_my_name_i_beg_you",
+      "clusterSizes" : {
+        "default" : "prophecy_internal_jobs",
+        "availableClusterSizes" : [ "prophecy_internal_jobs" ]
+      }
+    }, {
+      "id" : "6837",
       "name" : "TEST-SQL-DB-Automation",
       "clusterSizes" : {
         "default" : "prophecy_internal_jobs",
         "availableClusterSizes" : [ "prophecy_internal_jobs" ]
       }
     }, {
-      "id" : "1880",
-      "name" : "sql_databricks",
-      "clusterSizes" : {
-        "default" : "prophecy_internal_jobs",
-        "availableClusterSizes" : [ "prophecy_internal_jobs" ]
-      }
-    }, {
-      "id" : "2128",
-      "name" : "test_yuv_db",
-      "clusterSizes" : {
-        "default" : "prophecy_internal_jobs",
-        "availableClusterSizes" : [ "prophecy_internal_jobs" ]
-      }
-    }, {
-      "id" : "7",
+      "id" : "57",
       "name" : "dev_sql_databricks",
       "clusterSizes" : {
         "default" : "prophecy_internal_jobs",
         "availableClusterSizes" : [ "prophecy_internal_jobs" ]
       }
-    } ]
+    } ],
+    "accessControlList" : [ ]
   },
   "processes" : {
     "uAVNA9fv0qTboF28Qz0nU$$NPtur1O-ir49Ic-rvOLlA" : {
@@ -88,28 +82,44 @@
         }
       },
       "properties" : {
+        "entityId" : null,
         "execSeed" : true,
         "execRun" : true,
         "gitEntity" : "branch",
-        "projectId" : "66",
-        "runOnlyModel" : "false",
-        "loadingModels" : false,
-        "fullRefresh" : true,
-        "noSendAnonymousUsageStats" : true,
-        "profile" : "run_profile",
-        "sqlFabricId" : "7",
-        "gitEntityValue" : "dev_staging",
-        "execDeps" : true,
-        "execTest" : false,
-        "currentProjectModels" : [ {
+        "currentProjectSnapshots" : [ {
           "label" : "env_uitesting_main_model_databricks_2",
           "value" : "env_uitesting_main_model_databricks_2",
-          "id" : "66/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_2",
+          "id" : "28402/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_2",
           "name" : "env_uitesting_main_model_databricks_2"
         }, {
           "label" : "env_uitesting_main_model_databricks_1",
           "value" : "env_uitesting_main_model_databricks_1",
-          "id" : "66/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_1",
+          "id" : "28402/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_1",
+          "name" : "env_uitesting_main_model_databricks_1"
+        } ],
+        "projectId" : "28402",
+        "runOnlyModel" : "false",
+        "loadingModels" : false,
+        "fullRefresh" : true,
+        "entityName" : null,
+        "gitEntityValueTag" : null,
+        "noSendAnonymousUsageStats" : true,
+        "profile" : "run_profile",
+        "sqlFabricId" : "57",
+        "gitEntityValue" : null,
+        "execDeps" : true,
+        "gitEntityValueCommit" : null,
+        "gitEntityValueBranch" : null,
+        "execTest" : false,
+        "currentProjectModels" : [ {
+          "label" : "env_uitesting_main_model_databricks_2",
+          "value" : "env_uitesting_main_model_databricks_2",
+          "id" : "28402/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_2",
+          "name" : "env_uitesting_main_model_databricks_2"
+        }, {
+          "label" : "env_uitesting_main_model_databricks_1",
+          "value" : "env_uitesting_main_model_databricks_1",
+          "id" : "28402/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_1",
           "name" : "env_uitesting_main_model_databricks_1"
         } ]
       }

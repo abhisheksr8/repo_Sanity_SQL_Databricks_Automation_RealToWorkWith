@@ -1,10 +1,10 @@
 {
   "metainfo" : {
     "type" : "Composer",
-    "fabricId" : "24",
+    "fabricId" : "63",
     "jobId" : "jobs/SQL_DB_Parent_AirflowComposerJob",
     "name" : "SQL_DB_Parent_AirflowComposerJob",
-    "dagName" : "staging_abhisheks_e2etests_SQL_ParentDatabricks_SQL_DB_Parent_AirflowComposerJob",
+    "dagName" : "perftest_abhisheks_e2etests_Sanity_SQL_Databricks_Automation_RealToWorkWith_SQL_DB_Parent_AirflowComposerJob",
     "schedule" : "0 0 1 1 *",
     "enabled" : false,
     "alerting" : {
@@ -19,53 +19,40 @@
       "do_xcom_push" : true
     },
     "availableFabrics" : [ {
-      "id" : "22",
-      "name" : "dev_airflow_prophecy_managed",
-      "trialStartDate" : 1695736560346
+      "id" : "65",
+      "name" : "dev_airflow_253"
     }, {
-      "id" : "25",
-      "name" : "dev_airflow_mwaa"
-    }, {
-      "id" : "1013",
-      "name" : "dev_airflow_273"
-    }, {
-      "id" : "24",
+      "id" : "63",
       "name" : "dev_airflow"
     }, {
-      "id" : "2393",
-      "name" : "dev_airflow_263"
+      "id" : "66",
+      "name" : "dev_airflow_mwaa"
     }, {
-      "id" : "2679",
-      "name" : "Automation_python_AirflowOpenSource",
-      "artifactsLocation" : "/mnt/airflow/artifacts"
+      "id" : "60",
+      "name" : "dev_airflow_prophecy_managed",
+      "trialStartDate" : 1702453157825
     }, {
-      "id" : "2418",
-      "name" : "dev_aiflow_open_source",
-      "artifactsLocation" : "/mnt/airflow/artifacts"
-    }, {
-      "id" : "2447",
-      "name" : "sanity_airflow_os",
-      "artifactsLocation" : "/mnt/airflow/artifacts"
-    }, {
-      "id" : "2492",
-      "name" : "dev_airflow_mwaa_assumed_role_fabric"
-    }, {
-      "id" : "3031",
+      "id" : "6775",
       "name" : "Automation_scala_AirflowOpenSource",
-      "artifactsLocation" : "/mnt/airflow/artifacts"
+      "artifactsLocation" : "/mnt/airflow/test/artifacts"
     }, {
-      "id" : "2771",
-      "name" : "Airflow123"
-    }, {
-      "id" : "2896",
+      "id" : "4811",
       "name" : "dev_airflow_prophecy_managed_expired",
-      "trialStartDate" : 1719309774972
+      "trialStartDate" : 1716972474835
     }, {
-      "id" : "2980",
-      "name" : "airflow_composer_fabric"
+      "id" : "3462",
+      "name" : "test_airflow"
+    }, {
+      "id" : "6667",
+      "name" : "Automation_Airflow_MWAA_Custom_URL_Fabric"
+    }, {
+      "id" : "6771",
+      "name" : "Automation_python_AirflowOpenSource",
+      "artifactsLocation" : "/mnt/airflow/test/artifacts"
     } ],
     "maxActiveRuns" : 1,
     "catchup" : false,
+    "tags" : [ ],
     "scheduleTimeZone" : "UTC",
     "dagParams" : {
       "instances" : {
@@ -104,7 +91,7 @@
       },
       "settings" : { },
       "properties" : {
-        "entityId" : "66/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_1",
+        "entityId" : null,
         "cacheSelectedOnly" : null,
         "gitSubPath" : null,
         "runModelWithParents" : true,
@@ -118,7 +105,17 @@
         "gitTokenSecret" : null,
         "state" : null,
         "useExperimentalParser" : null,
-        "currentProjectSnapshots" : null,
+        "currentProjectSnapshots" : [ {
+          "label" : "env_uitesting_main_model_databricks_2",
+          "value" : "env_uitesting_main_model_databricks_2",
+          "id" : "28402/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_2",
+          "name" : "env_uitesting_main_model_databricks_2"
+        }, {
+          "label" : "env_uitesting_main_model_databricks_1",
+          "value" : "env_uitesting_main_model_databricks_1",
+          "id" : "28402/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_1",
+          "name" : "env_uitesting_main_model_databricks_1"
+        } ],
         "gitSshUrl" : null,
         "indirectSelection" : null,
         "partialParse" : null,
@@ -128,8 +125,8 @@
         "customVersion" : true,
         "noPrint" : null,
         "quiet" : null,
-        "projectId" : "66",
-        "runMode" : "model",
+        "projectId" : "28402",
+        "runMode" : "project",
         "runOnlyModel" : false,
         "favorState" : null,
         "failFast" : null,
@@ -139,8 +136,9 @@
         "select" : null,
         "recordTimingInfo" : null,
         "fullRefresh" : null,
-        "entityName" : "env_uitesting_main_model_databricks_1",
+        "entityName" : null,
         "noCacheSelectedOnly" : null,
+        "gitEntityValueTag" : null,
         "noFavorState" : null,
         "snapshot" : null,
         "isProphecyManaged" : false,
@@ -148,16 +146,17 @@
         "noVersionCheck" : null,
         "noWriteJson" : null,
         "printerWidth" : null,
-        "sqlFabricId" : "7",
-        "gitEntityValue" : "dev_staging",
+        "sqlFabricId" : "57",
+        "gitEntityValue" : "test_Automation_Branch",
         "logFormat" : null,
         "runModelWithChildren" : true,
         "dbtProfileSecret" : null,
+        "gitEntityValueCommit" : null,
         "target" : null,
         "exclude" : null,
         "runDeps" : null,
         "loadingSnapshots" : false,
-        "gitEntityValueBranch" : "dev_staging",
+        "gitEntityValueBranch" : "test_Automation_Branch",
         "noAnonymousUsageStats" : null,
         "selector" : null,
         "targetPath" : null,
@@ -166,12 +165,12 @@
         "currentProjectModels" : [ {
           "label" : "env_uitesting_main_model_databricks_2",
           "value" : "env_uitesting_main_model_databricks_2",
-          "id" : "66/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_2",
+          "id" : "28402/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_2",
           "name" : "env_uitesting_main_model_databricks_2"
         }, {
           "label" : "env_uitesting_main_model_databricks_1",
           "value" : "env_uitesting_main_model_databricks_1",
-          "id" : "66/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_1",
+          "id" : "28402/.prophecy/metadata/sqlmodels/env_uitesting_main_model_databricks_1",
           "name" : "env_uitesting_main_model_databricks_1"
         } ],
         "profilesDir" : null,

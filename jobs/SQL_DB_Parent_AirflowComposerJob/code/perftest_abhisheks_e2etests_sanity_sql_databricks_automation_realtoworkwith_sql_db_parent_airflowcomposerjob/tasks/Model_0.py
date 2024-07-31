@@ -1,4 +1,4 @@
-from staging_abhisheks_e2etests_sql_parentdatabricks_sql_db_parent_airflowcomposerjob.utils import *
+from perftest_abhisheks_e2etests_sanity_sql_databricks_automation_realtoworkwith_sql_db_parent_airflowcomposerjob.utils import *
 
 def Model_0():
     from airflow.operators.python import PythonOperator
@@ -18,13 +18,13 @@ def Model_0():
           "run_parents": True,
           "run_children": True,
           "run_tests": True,
-          "run_mode": "model",
+          "run_mode": "project",
           "entity_kind": "model",
-          "entity_name": "env_uitesting_main_model_databricks_1",
-          "project_id": "66",
+          "entity_name": None,
+          "project_id": "28402",
           "git_entity": "branch",
-          "git_entity_value": "dev_staging",
-          "git_ssh_url": "https://github.com/abhisheks-prophecy/sql_databricks_public_parent",
+          "git_entity_value": "test_Automation_Branch",
+          "git_ssh_url": "https://github.com/abhisheksr8/repo_Sanity_SQL_Databricks_Automation_RealToWorkWith.git",
           "git_sub_path": "",
           "select": "",
           "exclude": "",
